@@ -1,9 +1,9 @@
 name: june_view
 description: "JuneFlow Module"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/juneflow
+repository: https://github.com/juneflow-songdo/june_view
 
-version: 0.0.1+1
+version: 1.0.0+
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -18,14 +18,16 @@ dependencies:
   after_layout: ^1.2.0 #@add
   device_preview: ^1.1.0
   flutter_screenutil: ^5.9.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
 
 dev_dependencies:
-  device_preview_module: ^0.0.1+1
+  device_preview_module: ^0.0.1+1 #@add
   flutter_test:
     sdk: flutter
 
-  hive_module: ^1.0.0 #@add
-  screenutil_module: ^1.0.0+1
+  hive_module: ^1.0.0+3 #@add
+  screenutil_module: ^1.0.0+1 #@add
 
 flutter:
   uses-material-design: true
