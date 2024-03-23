@@ -1,0 +1,31 @@
+name: june_view
+description: "JuneFlow Module"
+#publish_to: 'none'
+#repository: https://github.com/melodysdreamj/juneflow
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^13.2.0
+  june_flow_util:
+  june: ^0.8.8 #@add
+  styled_widget: ^0.4.0+3 #@add
+  after_layout: ^1.2.0 #@add
+  device_preview: ^1.1.0
+  flutter_screenutil: ^5.9.0
+
+dev_dependencies:
+  device_preview_module: ^0.0.1+1
+  flutter_test:
+    sdk: flutter
+
+  hive_module: ^1.0.0 #@add
+  screenutil_module: ^1.0.0+1
+
+flutter:
+  uses-material-design: true
