@@ -1,5 +1,10 @@
 [![pub package](https://img.shields.io/pub/v/june_view.svg)](https://pub.dartlang.org/packages/june_view)
 
+<p>
+  <a href="https://github.com/melodysdreamj/juneflow">Juneflow</a> •
+  <a href="https://doc.juneflow.org/get-started">Documentation</a>
+</p>
+
 # june_view
 this module is a part of the juneflow project, it provides a view module for flutter project.
 
