@@ -3,7 +3,7 @@ description: "JuneFlow Module"
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/june_view
 
-version: 1.0.0+5
+version: 1.0.0+6
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
