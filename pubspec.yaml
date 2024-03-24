@@ -20,6 +20,7 @@ dependencies:
   flutter_screenutil: ^5.9.0
   hive: ^2.2.3
   hive_flutter: ^1.1.0
+  gap: ^3.0.1 #@add
 
 dev_dependencies:
   device_preview_module: ^0.0.1+1 #@add
