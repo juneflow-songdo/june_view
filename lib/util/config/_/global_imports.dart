@@ -13,3 +13,5 @@ export '../../_/shared_params/hive_module/_.dart';
 export 'package:flutter_screenutil/flutter_screenutil.dart';
 
 export 'package:gap/gap.dart'; //@add
+
+export 'package:flutter_svg/svg.dart'; //@add
