@@ -3,7 +3,7 @@ description: "JuneFlow Module"
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/june_view
 
-version: 1.0.0+7
+version: 1.0.0+8
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -21,6 +21,7 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   gap: ^3.0.1 #@add
+  flutter_svg: ^2.0.10+1 #@add
 
 dev_dependencies:
   device_preview_module: ^0.0.1+1 #@add
