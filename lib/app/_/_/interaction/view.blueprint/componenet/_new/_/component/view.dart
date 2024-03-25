@@ -30,7 +30,7 @@ class _VState extends State<V> {
             .fontWeight(FontWeight.bold)
             .textAlignment(TextAlign.center)
             .center(),
-      ).height(100).width(1.sw),
+      ).height(300).width(1.sw),
     );
   }
 }
