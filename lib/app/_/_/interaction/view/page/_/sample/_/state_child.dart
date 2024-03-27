@@ -51,6 +51,12 @@ class StateChild extends SampleState {
 increaseCountAction() {
   counter = counter + 1;
   setState(() {});
+
+  _test();
+}
+
+_test() {
+  print('test increase_count.dart');
 }
   /// end of automatically action generated code
   /// automatically generated event code - don't change this code
