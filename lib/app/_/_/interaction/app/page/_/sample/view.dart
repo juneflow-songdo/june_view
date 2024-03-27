@@ -5,14 +5,14 @@ import '../../../../../../../../main.dart';
 import '_/state_child.dart';
 import '_/state_mother.dart';
 
-class Sample extends StatefulWidget {
-  Sample({super.key});
+class SampleView extends StatefulWidget {
+  SampleView({super.key});
 
   @override
-  State<Sample> createState() => StateChild();
+  State<SampleView> createState() => StateChild();
 }
 
-class SampleState extends State<Sample> with StateMother {
+class SampleViewState extends State<SampleView> with StateMother {
   int counter = 0;
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class SampleState extends State<Sample> with StateMother {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("Sample View")
+          Text("SampleView View")
               .textStyle(Theme.of(context).textTheme.displaySmall!)
               .fontWeight(FontWeight.bold)
               .textAlignment(TextAlign.center)
@@ -45,5 +45,5 @@ class SampleState extends State<Sample> with StateMother {
 }
 
 main() async {
-  return buildApp(appHome: Sample());
+  return buildApp(appHome: SampleView());
 }

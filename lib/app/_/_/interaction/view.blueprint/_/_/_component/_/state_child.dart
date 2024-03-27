@@ -1,11 +1,10 @@
+import '../../../../../../../../../main.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../view.dart';
-import '../../../../../../../../../main.dart';
-import '../action/increase_count.dart';
 
 @JuneViewChild()
-class StateChild extends SampleViewState {
+class StateChild extends NewViewState {
   bool isReadyView = false;
 
   late StateChild state;
@@ -47,23 +46,8 @@ class StateChild extends SampleViewState {
 
   /// automatically generated action code - don't change this code
 
-@override
-increaseCountAction() {
-  counter = counter + 1;
-  setState(() {});
-
-  _test();
-}
-
-_test() {
-  print('test increase_count.dart');
-}
   /// end of automatically action generated code
   /// automatically generated event code - don't change this code
 
-@override
-clickIncrementButtonEvent(BuildContext context) {
-  increaseCountAction();
-}
   /// end of automatically event generated code
 }
