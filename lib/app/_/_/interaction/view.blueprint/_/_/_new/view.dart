@@ -5,19 +5,19 @@ import '../../../../../../../../main.dart';
 import '_/state_child.dart';
 import '_/state_mother.dart';
 
-class New extends StatefulWidget {
-  New({super.key});
+class NewView extends StatefulWidget {
+  NewView({super.key});
 
   @override
-  State<New> createState() => StateChild();
+  State<NewView> createState() => StateChild();
 }
 
-class NewState extends State<New> with StateMother {
+class NewViewState extends State<NewView> with StateMother {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.background,
-      body: Text("New View")
+      body: Text("NewView View")
           .textStyle(Theme.of(context).textTheme.displaySmall!)
           .fontWeight(FontWeight.bold)
           .textAlignment(TextAlign.center)
@@ -28,5 +28,5 @@ class NewState extends State<New> with StateMother {
 }
 
 main() async {
-  return buildApp(appHome: New());
+  return buildApp(appHome: NewView());
 }

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../view.dart';
 
 @JuneViewChild()
-class StateChild extends NewState {
+class StateChild extends NewViewState {
   bool isReadyView = false;
 
   late StateChild state;
