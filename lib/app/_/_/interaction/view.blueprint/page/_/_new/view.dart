@@ -17,7 +17,7 @@ class NewViewState extends State<NewView> with StateMother {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.background,
-      body: Text("NewView View")
+      body: Text("NewView")
           .textStyle(Theme.of(context).textTheme.displaySmall!)
           .fontWeight(FontWeight.bold)
           .textAlignment(TextAlign.center)

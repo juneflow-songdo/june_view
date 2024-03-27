@@ -17,7 +17,7 @@ class NewViewState extends State<NewView> with StateMother {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.blue,
-      child: const Text("New View")
+      child: const Text("NewView")
           .textStyle(Theme.of(context).textTheme.displaySmall!)
           .fontWeight(FontWeight.bold)
           .textAlignment(TextAlign.center)
