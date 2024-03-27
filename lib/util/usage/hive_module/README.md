@@ -1,5 +1,10 @@
 [![pub package](https://img.shields.io/pub/v/hive_module.svg)](https://pub.dartlang.org/packages/hive_module)
 
+<p>
+  <a href="https://github.com/melodysdreamj/juneflow">Juneflow</a> •
+  <a href="https://doc.juneflow.org/get-started">Documentation</a>
+</p>
+
 # hive_module
 this module is a wrapper for the [hive](https://pub.dev/packages/hive) package, it provides a simple way to use hive in juneflow project.
 

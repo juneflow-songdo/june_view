@@ -1,5 +1,10 @@
 [![pub package](https://img.shields.io/pub/v/device_preview_module.svg)](https://pub.dartlang.org/packages/device_preview_module)
 
+<p>
+  <a href="https://github.com/melodysdreamj/juneflow">Juneflow</a> •
+  <a href="https://doc.juneflow.org/get-started">Documentation</a>
+</p>
+
 # device_preview_module
 this is a module for juneflow, which provides a preview of the app on different devices using the device_preview package.
 

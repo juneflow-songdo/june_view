@@ -1,5 +1,10 @@
 [![pub package](https://img.shields.io/pub/v/screenutil_module.svg)](https://pub.dartlang.org/packages/screenutil_module)
 
+<p>
+  <a href="https://github.com/melodysdreamj/juneflow">Juneflow</a> •
+  <a href="https://doc.juneflow.org/get-started">Documentation</a>
+</p>
+
 # screenutil_module
 this module is a part of the juneflow project, it provides a screenutil module for flutter project.
 

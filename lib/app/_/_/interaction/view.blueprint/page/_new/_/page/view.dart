@@ -24,17 +24,17 @@ class _VState extends State<V> {
       () => NewState(),
       tag: widget.tag,
       autoRemove: false,
-      builder: (state) =>  Scaffold(
-          backgroundColor: Theme.of(context).colorScheme.background,
-          body: SafeArea(
-            child: Text("New Page")
-                .textStyle(Theme.of(context).textTheme.displaySmall!)
-                .fontWeight(FontWeight.bold)
-                .textAlignment(TextAlign.center)
-                .center(),
-          ),
-          floatingActionButton: FloatingActionButtonKit(),
+      builder: (state) => Scaffold(
+        backgroundColor: Theme.of(context).colorScheme.background,
+        body: SafeArea(
+          child: Text("New Page")
+              .textStyle(Theme.of(context).textTheme.displaySmall!)
+              .fontWeight(FontWeight.bold)
+              .textAlignment(TextAlign.center)
+              .center(),
         ),
+        floatingActionButton: FloatingActionButtonKit(),
+      ),
     );
   }
 }
