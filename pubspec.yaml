@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   go_router: ^13.2.0
-  june_flow_util:
+  june_flow_util: ^0.8.19
   june: ^0.8.8 #@add
   styled_widget: ^0.4.0+3 #@add
   after_layout: ^1.2.0 #@add
