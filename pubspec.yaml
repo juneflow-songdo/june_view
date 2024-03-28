@@ -25,7 +25,7 @@ dependencies:
 
 dev_dependencies:
   device_preview_module: ^0.1.0 #@add
-  flutter_lints: ^3.0.2 #@add
+  flutter_lints: ^3.0.2
   flutter_lints_module: ^0.0.1+7 #@add
   flutter_test:
     sdk: flutter
