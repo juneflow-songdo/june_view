@@ -1,11 +1,11 @@
-[![pub package](https://img.shields.io/pub/v/june_view_more.svg)](https://pub.dartlang.org/packages/june_view_more)
+[![pub package](https://img.shields.io/pub/v/june_view.svg)](https://pub.dartlang.org/packages/june_view)
 
 <p>
   <a href="https://github.com/melodysdreamj/juneflow">Juneflow</a> •
   <a href="https://doc.juneflow.org/get-started">Documentation</a>
 </p>
 
-# june_view_more
+# june_view
 view framework by june
 
 ##  Installation
