@@ -1,9 +1,9 @@
 name: june_view
-description: "JuneFlow Module"
+description: "view framework by june, divide view,action,event and state for easy to use."
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/june_view
 
-version: 1.4.9
+version: 1.5.9
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
