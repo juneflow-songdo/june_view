@@ -8,7 +8,6 @@ export 'package:june_flow_util/june_flow_util.dart';
 
 export 'package:june/june.dart'; //@add
 export 'package:styled_widget/styled_widget.dart'; //@add
-export '../../_/shared_params/hive_module/_.dart';
 
 export 'package:flutter_screenutil/flutter_screenutil.dart';
 
