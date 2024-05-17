@@ -1,30 +1,30 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../../../../main.dart';
-import '_/state_child.dart';
-import '_/state_mother.dart';
 
 class NewView extends StatefulWidget {
-  NewView({super.key});
+  const NewView({super.key});
 
   @override
-  State<NewView> createState() => StateChild();
+  State<NewView> createState() => _NewViewState();
 }
 
-class NewViewState extends State<NewView> with StateMother {
+class _NewViewState extends State<NewView> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.blue,
-      child: const Text("NewView")
+    return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.background,
+      body: Text("NewView")
           .textStyle(Theme.of(context).textTheme.displaySmall!)
           .fontWeight(FontWeight.bold)
           .textAlignment(TextAlign.center)
           .center(),
-    ).height(300).width(1.sw);
+      floatingActionButton: FloatingActionButtonKit(),
+    );
   }
 }
 
+
 main() async {
-  return buildApp(appHome: NewView().center());
+  return buildApp(appHome: NewView());
 }
