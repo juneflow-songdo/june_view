@@ -3,7 +3,7 @@ description: "view framework by june, divide view,action,event and state for eas
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/june_view
 
-version: 1.8.0
+version: 1.9.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -13,7 +13,6 @@ dependencies:
     sdk: flutter
   go_router:
   june_flow_util:
-  june:  #@add
   styled_widget:  #@add
   after_layout:  #@add
   device_preview:
